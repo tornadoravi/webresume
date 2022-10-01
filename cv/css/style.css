@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Josefin+Sans&family=Kanit:wght@600&family=Lato&family=Poppins:ital,wght@0,600;1,300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 800px;
+    height:1100px;
+    /* background-color:white; */
+    display: flex;
+
+}
+.side{
+    width: 45%;
+    height: 100%;
+    background-color: #F4D03F;
+background-image: linear-gradient(183deg, #F4D03F 0%, #16A085 100%);
+ 
+}
+.profile{
+    width: 100%;
+    height: 25%;
+    /* background-color: chartreuse; */
+    background-image: url(../image/pexels-pixabay-415829.jpg);
+    background-size: 125%;
+    /* object-fit: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+
+}
+.main{
+    width: 100%;
+    height: 100%;
+background-color: rgba(255, 255, 255, 0.882)
+;
+}
+.nav{
+    width: 100%;
+    height:25%;
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+}
+.name{
+    width: auto;
+    height: auto;
+    font-size: 40px;
+    padding-top: 5%;   
+}
+.fname{
+    text-transform: uppercase;
+}
+.lname{
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.roll{
+    text-transform: uppercase;
+    padding-top: 3%;
+    font-weight: 600;
+}
+.personaldetails{
+    width: 100%;
+    height:15%;
+    background-color: rgba(255, 255, 255, 0.41);
+    border-radius: 20px;
+}
+.address{
+    padding-top: 6%;
+    padding-left: 5%;
+    /* font-family: 'Abyssinica SIL', serif; */
+}
+.address i{
+    padding-right:3%;
+    color:#16A085;
+}
+.phone{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.phone i{
+    padding-right:3%;
+    color:#16A085;
+}
+.mail{
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.mail i{
+    padding-right:5%;
+    color:#16A085;
+}
+.edu{
+    width: 100%;
+    height:15%;
+    /* background-color: rgba(111, 29, 29, 0.41); */
+}
+.edutitle{
+   
+    text-transform: uppercase;
+    padding-top: 4%;
+    padding-left: 25%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    /* width:20%;
+    height: 20%; */
+    /* background-color: rgba(255, 255, 255, 0.466); */
+    /* border-radius: 20px; */
+
+}
+.eduroll{
+    text-transform: uppercase;
+    padding-top:  6%;
+    padding-left: 28%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.edurollimp{
+    text-transform: uppercase;
+    padding-top: 3%;
+    padding-left: 26%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+
+}
+.edudetails{
+    padding-top: 3%;
+    padding-left: 15%
+
+}
+.cre{
+    padding-top: 10%;
+    width: 100%;
+    height:15%;
+    /* background-color: rgba(111, 29, 29, 0.41); */
+}
+.cretitle{
+    text-transform: uppercase;
+    padding-top: 4%;
+    padding-left: 15%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.creroll{
+    text-transform: uppercase;
+    padding-top:  6%;
+    padding-left: 28%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.crerollimp{
+    text-transform: uppercase;
+    padding-top: 3%;
+    padding-left: 26%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+
+}
+.credetails{
+    padding-top: 3%;
+    padding-left: 15%
+
+}
+
+.dis{
+    
+    width: 100%;
+    height:15%;
+    /* background-color: rgba(111, 29, 29, 0.41); */
+}
+.distitle{
+    text-transform: uppercase;
+    padding-top: 4%;
+    padding-left: 18%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.disroll{
+    text-transform: uppercase;
+    padding-top:  6%;
+    padding-left: 28%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.disrollimp{
+    text-transform: uppercase;
+    padding-top: 3%;
+    padding-left: 26%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+
+}
+.disdetails{
+    padding-top: 3%;
+    padding-left: 15%
+
+}
+.ref{
+    width: 100%;
+    height:15%;
+    /* background-color: rgba(111, 29, 29, 0.41); */
+    
+}
+.reftitle{
+    text-transform: uppercase;
+    padding-left: 20%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.refroll{
+    text-transform: uppercase;
+    padding-top:  6%;
+    padding-left: 28%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.refrollimp{
+    text-transform: uppercase;
+    padding-top: 3%;
+    padding-left: 26%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+
+}
+.refdetails{
+    padding-top: 3%;
+    padding-left: 17%
+
+}
+.refphone{
+    padding-top: 3%;
+    font-size: 15px;
+    padding-left: 12%
+}
+.refmail{
+    padding-top: 1%;
+    font-size: 14px;
+    padding-left: 12%
+}
+.profiled{
+    padding-top: 7%;
+    /* border-bottom: 2px solid #16A085; */
+}
+.protitles{
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.prodetails{
+    padding-left: 9%;
+    font-size: 15px;
+
+}
+.exp{
+    padding-top: 4%;
+}
+.expfiled{
+    padding-top: 30%;
+    /* border-bottom: 2px solid #16A085; */
+}
+.kim{
+    display: flex;
+    justify-content: space-between;
+}
+.exptitles{
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 20px;
+}
+.expdetails{
+    padding-left: 9%;
+    font-size: 15px;
+
+}
+.exproll{
+    text-transform: uppercase;
+    padding-top:  2%;
+    padding-left: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+.exprollimp{
+    text-transform: uppercase;
+    padding-top: 1%;
+    padding-left: 3%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    color: #16A085;
+
+}
+.expdate{
+    padding-right: 4%;
+    color: #16A085;
+}
+.kim1{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.kim2{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+.kim3{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.skillanguage{
+    font-family: 'Josefin Sans', sans-serif;
+    padding-right: 5%;
+    font-weight: 500;
+    
+    text-transform: uppercase;
+    
+    color: #16A085;
+}
+.skils{
+    margin-top: 3%;
+}
+.skilttts{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between
+}
+.tis2{
+    padding-right: 8%;
+   
+}
+.tis{
+    padding-left: 5%;
+}
+.interest{
+    margin-top: 3%;
+}
+.kim4{
+  margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.fa-solid{
+    font-size: 30px;
+    color: rgb(68, 75, 72);
+
+}
